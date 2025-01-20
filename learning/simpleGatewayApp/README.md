@@ -8,12 +8,20 @@ La struttura del progetto è la seguente:
 
 /home/agostino/SmartHome-SE4IOT/learning/simpleGatewayApp
 ├── config
-│   └── settings.json             # File di configurazione per l'applicazione
-├── README.md                    # Documentazione del progetto
+│   ├── org.eclipse.paho.client.mqttv3-1.2.0.jar
+│   └── settings.json
+├── homie-gateway-client-tcplocalhost1883
+├── out
+│   ├── GatewayApp.class
+│   ├── MqttClientWrapper.class
+│   └── Sensor.class
+├── README.md
 └── src
-    ├── GatewayApp.java           # Logica principale dell'applicazione Gateway
-    ├── MqttClientWrapper.java    # Gestione della connessione MQTT
-    └── Sensor.java               # Simulazione dei sensori (es. temperatura, umidità)
+    ├── GatewayApp.java
+    ├── MqttClientWrapper.java
+    └── Sensor.java
+
+5 directories, 9 files
 
 File di configurazione
 
