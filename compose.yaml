@@ -63,7 +63,7 @@ services:
       - net-test
     volumes:
       - grafana-storage:/var/lib/grafana:rw
-      - ./grafana/provisioning:/etc/grafana/provisioning:ro    
+      - ./SmartHome-SE4IOT/grafana/provisioning:/etc/grafana/provisioning
     depends_on:
       - influxdb
     ports:

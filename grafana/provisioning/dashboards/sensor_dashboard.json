@@ -1,0 +1,17 @@
+{
+  "dashboard": {
+    "title": "Sensor Dashboard",
+    "panels": [
+      {
+        "title": "Sensor Data",
+        "type": "timeseries",
+        "targets": [
+          {
+            "query": "from(bucket: \"smart_home_iot\") |> range(start: -1h) |> filter(fn: (r) => r[\"_measurement\"] == \"mqtt_consumer\")",
+            "refId": "A"
+          }
+        ]
+      }
+    ]
+  }
+}

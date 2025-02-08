@@ -101,7 +101,7 @@
           "refId": "A"
         }
       ],
-      "title": "Temperatura Attuale (Bedroom)",
+      "title": "Temperatura Attuale (prova)",
       "type": "gauge"
     },
     {
@@ -187,7 +187,7 @@
           "refId": "A"
         }
       ],
-      "title": "Temp History (Bedroom)",
+      "title": "Temp History (letto)",
       "type": "timeseries"
     },
     {
